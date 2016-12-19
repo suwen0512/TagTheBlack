@@ -1,0 +1,80 @@
+*{
+	margin:0;
+	border:none;
+	padding:0;
+	font-family: '微软雅黑';
+}
+
+.score{
+	width: 408px;
+	margin: 20px auto;
+	font-size: 24px;
+}
+
+#main{
+	width: 408px;
+	height: 408px;
+	border: 2px black solid;
+	/*矩阵框居中显示*/
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	top: 45%;
+	margin-top: -200px;
+	overflow: hidden;
+	
+}
+
+#container{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: -100px;
+}
+
+/*行*/
+.row{
+	width: 408px;
+	height: 102px;
+}
+
+/*单元块*/
+.cell{
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin: 1px;
+}
+
+/*黑块*/
+.black{
+	background: black;
+}
+
+/*遮罩层*/
+#start{
+	width: 400px;
+	height: 400px;
+	position: absolute;
+	left: 50%;
+	margin-left: -196px;
+	top: 45%;
+	margin-top: -196px;
+	z-index: 1001;
+	background: white;
+	opacity: 0.9;
+	text-align: center;
+	font-size: 48px;
+	line-height: 400px;
+	cursor:pointer;
+}
+
+#exp{
+	width: 500px;
+	height: 90px;
+	position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	top: 95%;
+	margin-top: -60px;
+}
